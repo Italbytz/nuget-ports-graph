@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;net7.0</TargetFrameworks>
 		<Nullable>enable</Nullable>
-		<PackageVersion>0.1.0</PackageVersion>
+		<PackageVersion>0.2.0</PackageVersion>
 		<Authors>Robin Nunkesser</Authors>
 		<PackageProjectUrl>https://github.com/Italbytz/nuget-ports-graph</PackageProjectUrl>
 		<Description>A set of helpful graph interfaces.</Description>
@@ -16,4 +16,7 @@
 	<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
 		<LangVersion>9.0</LangVersion>
 	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Italbytz.Ports.Algorithms" Version="0.1.0" />
+	</ItemGroup>
 </Project>
